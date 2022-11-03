@@ -13,7 +13,6 @@
         <h2><a href="{% pageurl post %}">{{ post.title }}</a></h2>
         {{ post.specific.intro }}
         {{ post.specific.body|richtext }}
-        <p><a href="{% pageurl post %}">Read more</a></p>
     {% endfor %}
 
 {% endblock %}
